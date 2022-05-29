@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./Imagenes/000-favicon-16x16.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans&family=Mukta&family=Ubuntu&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Chango&family=Fredoka+One&family=Lilita+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilosMundoSubmarino.css">
+    <script defer src="jsMundoSubmarino.js"></script>
+    <title>Mundo Submarino</title> 
+</head>
+<body class="img-fluid">
+    <header>
+        <figure class="logo_header">
+            <!--<source media="(resolution: 2dppx)" srcset="./Imagenes/000-logo-antiparras-398x566-@2x.png">
+            <source media="(max-width: 480px)" srcset="./Imagenes/000-logo-antiparras-122x174.png">-->
+            <a href="index.html">
+                <img src="./Imagenes/000-logo-antiparras-398x566.png" width="100%" alt="Logo de antiparras">
+            </a>
+        </figure>
+        <div class="animacion_tit_header">
+            <h1 class="borde_tit_header">Mundo Submarino</h1>
+            <h1 class="ola_tit_header">Mundo Submarino</h1>
+        </div>
+    </header>
+    <nav class="menu_header">
+        <ul>
+            <li><a href="index.html">Medusas</li>
+            <li><a href="medusasGigantes.html">Medusas Gigantes</li>
+            <li><a href="chironexFleckeri.html">Chironex Fleckeri</a></li>
+            <li><a href="aequoreaVictoria.html">Aequorea Victoria</a></li>
+            <li><a href="chrysaoraFuscescens.html">Chrysaora Fuscescens</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section class="datos_personales" id="idDatosPersonales_foot">
+            <h2 id="idInicioPagina_tit">Formulario de inscripción</h2>
+            <h3>Datos Personales</h3>
+            <form method="post" class="formulario" id="formulario">
+                <div class="formulario_grupo">
+                    <label for="nombre" class="formulario_label">Nombre</label>
+                    <div class="formulario_grupo-input">
+                        <input type="text" class="formulario_input" name="nombre" id="nombre" placeholder="Juan">
+                    </div>
+                </div>
+                <div class="formulario_grupo">
+                    <label for="apellido" class="formulario_label">Apellido</label>
+                    <div class="formulario_grupo-input">
+                        <input type="text" class="formulario_input" name="apellido" id="apellido" placeholder="Pérez">
+                    </div>
+                </div>
+                <div class="formulario_grupo">
+                    <label for="edad" class="formulario_label">Edad</label>
+                    <div class="formulario_grupo-input">
+                        <input type="number" class="formulario_input" name="edad" id="edad" placeholder="18">
+                    </div>
+                </div>
+                <div class="formulario_grupo">
+                    <label for="dni" class="formulario_label">DNI</label>
+                    <div class="formulario_grupo-input">
+                        <input type="number" class="formulario_input" name="dni" id="dni" placeholder="32598746">
+                    </div>
+                </div>
+                <div class="formulario_grupo">
+                    <label for="pais" class="formulario_label">Pais de residencia</label>
+                    <div class="formulario_grupo-input">
+                        <input type="text" class="formulario_input" name="pais" id="pais" placeholder="Argentina">
+                    </div>
+                </div>
+                <div class="formulario_grupo">
+                    <label for="email" class="formulario_label">E-mail</label>
+                    <div class="formulario_grupo-input">
+                        <input type="email" class="formulario_input" name="email" id="email" aria-required="" placeholder="juan.perez@correo.com">
+                    </div>
+                </div>
+                <div class="formulario_grupo formulario_grupo-boton-enviar">
+                    <button type="reset" onclick="limpiarFormulario()" class="formulario_boton" value="limpiarFormulario">
+                        Limpiar
+                    </button>
+                    <button type="submit" class="formulario_boton" value="enviar">
+                        Enviar
+                    </button>
+                </div>
+            </form>
+
+        </section>
+    </main>
+    <aside class="aside_form">
+        <div class="form_advertencia">
+            <div class="form_advertencia titulo">
+                <span>
+                    <b>ADVERTENCIA</b>
+                </span>
+                <span>NO LLENE ESTE FORMULARIO</span>
+            </div>
+            <div class="form_advertencia texto"> 
+                <div>
+                    Toda información referente a que este sitio (Mundo Submarino) te llevará a conocer las instalaciones de Monterey Bar Aquarium Reserach Institut (MBARI), visitar el <i>Monterey Bay Aquarium</i>, bucear en Bonaire y conocer el nuevo laboratorio submarino de Fundación Philippe Costeau, en Curazao,<span class="resaltado">ES FALSA</span>
+                </div>
+                <dic>
+                    Este formulario es solo parte de un ejercicio práctico para una clase de informática.<span class="resaltado">POR FAVOR NO LLENE NI ENVÍE EL FORMULARIO. GRACIAS</span>  
+                </div>
+            </div>
+        </div>
+    </aside>
+    <footer>
+        <div class="logo_footer">
+            <!--<source media="(resolution: 2dppx)" srcset="./Imagenes/000-logo-antiparras-398x566-@2x.png">
+            <source media="(max-width: 480px)" srcset="./Imagenes/000-logo-antiparras-122x174.png">-->
+            <a href="index.html">
+                <img src="./Imagenes/000-logo-antiparras-398x566.png" width="100%" alt="Logo de antiparras">
+            </a>
+        </div>
+        <div class="footer links">
+            <div class="footer links_internos">
+                <ul>
+                    <li><a href="#idInicioPagina_tit">Volver al inicio</a></li>
+                    
+                </ul>
+            </div>
+            <div class="footer links_locales">
+                <ul>
+                    <li><a href="index.html">Medusas</li>
+                    <li><a href="medusasGigantes.html">Medusas Gigantes</li>
+                    <li><a href="chironexFleckeri.html">Chironex Fleckeri</a></li>
+                    <li><a href="aequoreaVictoria.html">Aequorea Victoria</a></li>
+                    <li><a href="chrysaoraFuscescens.html">Chrysaora Fuscescens</a></li>
+                </ul>
+            </div>
+            <div class="footer links_redes">
+                <div class="links_contacto">
+                    <span>
+                        <a href="https://twitter.com/" target="_blank">
+                            <img src="./Imagenes/000-icono-twitter.png" width="30" alt="Logo twitter">
+                        </a>
+                        <a href="http://facebook.com" target="_blank">
+                            <img src="./Imagenes/000-icono-face.png" width="30" alt="Logo facebook">
+                        </a>
+                    </span>
+                    <span>
+                        <a href="http://instagram.com" target="_blank">
+                            <img src="./Imagenes/000-icono-instagram.png" width="30" alt="Logo instagram">
+                        </a>
+                        <a href="mailto:nsalvatierra.ente1@gmail.com">
+                            <img src="./Imagenes/000-icono-envelope.svg" width="30" alt="dibujo esquemático de un sobre">
+                        </a>
+                    </span>
+                </div>
+                <div class="texto_contacto">
+                    <span>¿Querés saber sobre</span>
+                    <span> otros animales marinos?</span>
+                    <span>Contanos a través</span>
+                    <span>de nuestras redes.</span>
+                    <span class="advertencia_email">NO ESCRIBAS A ESTE E-MAIL</span>
+                    <span class="advertencia_email">NO TENEMOS REDES</span>
+                    <span class="advertencia_email">Esta página es ficticia.</span>
+                </div>
+            </div>
+        </div>
+    </footer>    
+</body>
+</html>
